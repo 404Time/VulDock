@@ -1,7 +1,7 @@
 # VulDock
-## 🐋 VulDock: Docker Vulnerability Analysis Tool
+## 🐋 VulDock: Vulnerability Scanning Tool for Docker Images🐋
 ![VulDock](./images/슬라이드1.PNG)
-<b>VulDock</b> 은 `Vulnerability`와 `Docker`의 앞글자를 따서 만든 단어로, Docker Vulnerability Analysis Tool 즉, `도커 이미지 취약점 탐지 툴`이다.
+<b>VulDock</b> 은 `Vulnerability`와 `Docker`의 앞글자를 따서 만든 단어로, Vulnerability Scanning Tool for Docker Images 즉, `도커 이미지 취약점 탐지 툴`이다.
 Vuldock은 <b>컨테이너를 실행하기 전에 사용된 이미지가 가지고 있을 수 있는 버전 등의 잠재적인 문제 검사</b>를 목표로 하며, python 기반의 리눅스 환경에서 실행되는 프로그램이다. 
 <br><br>
 또한, Vuldock은 여러 개의 컨테이너로부터 이루어진 서비스 구축을 위한 `docker-compose로 작성된 도커 이미지` 분석에 적합하며, 툴을 사용하기 위해서는 <b>해당 이미지가 실행할 로컬 환경에 다운로드</b> 되어 있어야한다.
